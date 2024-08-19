@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient(45deg,rgb(39, 95, 238),rgb(233, 163, 195)) ;
+}
+
+.container{
+    height: 500px;
+    width:  500px;
+    margin: 100px;
+    margin-left: 500px;
+   background-color: white;
+   box-shadow: 2px 2px 4px grey;
+   border-radius: 40px;
+}
+#heading{
+    text-align:center;
+    padding-top: 10px;
+}
+.box
+{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+#url{
+    padding: 14px;
+    font-size: large;
+    padding-right: 220px;
+    border-radius: 20px;
+    list-style: none;
+    border-style: none;
+    border:  1px solid black;
+}
+
+.generate{
+    margin-top: 20px;
+}
+#button{
+    margin-left: 130px;
+    padding: 12px;
+    border-radius: 20px;
+    background-color: rgb(13,112, 224);
+    color: white;
+    border-style: none;
+    padding-right: 30px;
+    padding-left: 30px;
+    text-align: center;
+    font-size: larger;
+    box-shadow: 1px 1px 2px grey;
+    text-shadow: 1px 1px 3px rgb(119, 115, 115);
+}
+.imgbox{
+    margin-top: 40px;
+    margin-left: 150px;
+}
+#qrimg{
+    height: 200px;
+    width: 200px;
+}
+.reset{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+#clearButton{
+   padding: 10px;
+   padding-left: 40px;
+   padding-right: 40px;
+   border-radius: 20px;
+   color: white;
+   background-color: rgb(13, 112, 224);
+   border-style: none;
+   text-shadow: 1px 1px 2px rgb(157, 155, 155);
+   box-shadow: 1px 1px 4px grey;
+   font-size: large;
+}
